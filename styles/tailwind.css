@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-2xl;
+    }
+    h2 {
+      @apply text-xl;
+    }
+    p {
+        @apply justify-center;
+      }
+  }
+  @layer components {
+
+    .btn {
+        @apply font-medium border-solid w-full border-x border-y border-current py-2 px-4 rounded;
+      }
+    
+  }
+
+  @layer utilities {
+    .bg-gray {
+      background-color:#dadada;
+    }
+    .bg-gray-light {
+        background-color:#f5f5f5;
+    }
+    .bg-gray-dark {
+        background-color: #404040;
+      }
+  }
+
+
+
+
+  
